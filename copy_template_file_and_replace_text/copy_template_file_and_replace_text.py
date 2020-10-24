@@ -1,5 +1,5 @@
 # location of template file
-template_location = "/Users/brandonbooth/projects/brandon booth website/"
+template_location = ""
 
 # location to save newly created files
 write_location = "output/"
