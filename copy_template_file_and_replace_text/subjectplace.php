@@ -13,43 +13,6 @@ $twitter_link = "@8@";
 $table_name = "@9@";
 $last_update = "@10@";
 
-
-
-// // =========================================
-// // = SF
-
-// // html and css variables
-// $color1 = "#333"; //grey
-// $page_title = "Eat in SF";
-// $page_description = "A list of my favorite places to eat at in San Francisco, California. ";
-// $page_keywords = "Map,Food,Eat,San Francicso,California,SF,CA";
-// $page_name = "eatdrinkSF.php";
-// $page_author = "Brandon Booth";
-// $page_image = "projects_eatSF.png";
-// $twitter_link = "Where%20to%20eat%20in%20San%20Francisco,%20California.";
-// $table_name = "eaSF";
-// $last_update = "Spring 2020"
-// // =========================================
-
-
-// =========================================
-// = SF
-
-// // html and css variables
-// $color1 = "#333"; //grey
-// $page_title = "Eat in PDX";
-// $page_description = "A list of my favorite places to eat at in Portland, Oregon. ";
-// $page_keywords = "Map,Food,Eat,Portland,Oregon,PDX,OR";
-// $page_name = "eatPDX.php";
-// $page_author = "Brandon Booth";
-// $page_image = "projects_eatPDX.png";
-// $twitter_link = "Where%20to%20eat%20in%20Portland,%20Oregon.";
-// $table_name = "eatPDX";
-// $last_update = "Spring 2020"
-// // =========================================
-
-
-
 // Return the number of rows in result set
 $query = "SELECT * FROM ".$table_name;
 $result = mysqli_query($conn,$query);	
