@@ -8,7 +8,6 @@ write_location = "output/"
 f = open(template_location+"subjectplace.php", "r")
 oldtext = f.read()
 
-
 # ==================================================================
 # === Eat - PDX ===
 # replace variables
@@ -27,7 +26,6 @@ newtext = newtext.replace("@10@", "Spring 2020")
 f = open(write_location+"eatPDX.php", "w")
 f.write(newtext)
 f.close()
-
 
 # ==================================================================
 # === Breweries - PDX ===
@@ -48,7 +46,6 @@ f = open(write_location+"breweriesPDX.php", "w")
 f.write(newtext)
 f.close()
 
-
 # ==================================================================
 # === Eat - SF ===
 # replace variables
@@ -67,7 +64,6 @@ newtext = newtext.replace("@10@", "Spring 2020")
 f = open(write_location+"eatSF.php", "w")
 f.write(newtext)
 f.close()
-
 
 # ==================================================================
 # === Breweries - SF ===
