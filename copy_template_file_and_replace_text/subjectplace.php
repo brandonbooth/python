@@ -1,5 +1,5 @@
 <?php
-require_once('../include_/dbconnect.php');
+require_once('../private/dbconnect.php');
 
 // // html and css variables
 $color1 = "@1@";

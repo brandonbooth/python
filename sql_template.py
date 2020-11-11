@@ -41,6 +41,21 @@ try:
     # sql = "DELETE FROM eatSF_list where id = (select id from (select id from eatSF_list order by id limit 3,1) as n)";
 
     # ---  ---  
+   # ---Good Queries---
+    # sql_select_Query = "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES"
+    # sql_select_Query = "SELECT TABLE_NAME, COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS"
+    # sql_select_Query = "SELECT TABLE_NAME, COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'eatSF';"
+    # sql_select_Query = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'eatSF';"
+    # sql_select_Query = "select * from eatSF order by col1 asc"
+    # sql_select_Query = "INSERT INTO eatSF (col1,name) VALUES ('126','test');"
+    # sql_select_Query = "DELETE FROM eatSF WHERE col1 = '120';"
+
+
+
+    # sql_select_Query = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'eatdrinkSF';"
+
+    # sql_select_Query = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'eatdrinkSF';"
+
 
     # ---  ---  
 
